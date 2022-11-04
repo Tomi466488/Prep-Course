@@ -40,6 +40,18 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let minusculas = ""
+  let mayusculas = ""
+
+  for (let i = 0; i<s.length; i++){
+    if(s[i] === s[i].toUpperCase()){
+      mayusculas = mayusculas + s[i]
+    }
+    else{
+      minusculas = minusculas + s[i]
+    }
+  }
+  return mayusculas + minusculas
 }
 
 
