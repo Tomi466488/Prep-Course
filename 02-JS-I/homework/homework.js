@@ -63,7 +63,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x === Y) {
+  if (x === y) {
     return true;
   } else {
     return false;
@@ -184,7 +184,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = 'nombre' + ' ' + 'apellido';
+  var combinado = nombre + ' ' + apellido;
   return combinado;
 }
 
@@ -233,7 +233,7 @@ function esVocal(letra){
   if (letra.length > 1){
     return "Dato incorrecto"
   } 
-  if (letra === "a" || letra === "e" ||| letra === "i" ||| letra === "o" ||| letra === "u"){
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal"
   }
   return "Dato incorrecto"
